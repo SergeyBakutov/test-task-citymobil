@@ -1,0 +1,8 @@
+.Sidebar {
+  flex-grow: 0;
+  width: 10%;
+  background-color: #E4E5E6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

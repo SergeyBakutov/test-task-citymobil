@@ -1,0 +1,31 @@
+.Table {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.Table th:first-child {
+  cursor: pointer;
+}
+
+.Table th {
+  background-color: rgba(240, 242, 244, 0.5);
+  font-weight: normal;
+}
+
+.Table th:nth-child(1),
+.Table td:nth-child(1) {
+  width: 30%;
+  text-align: left;
+}
+
+.Table td:not(:first-child) {
+  cursor: pointer;
+}
+
+.Table th, .Table td {
+  width: 10%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}

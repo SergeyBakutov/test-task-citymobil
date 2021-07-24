@@ -1,0 +1,26 @@
+.TableSearch {
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.TableSearch input {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 10px 20px;
+  outline: none;
+  background-color: rgba(240, 242, 244, 0.5);
+  border: 1px solid #DEE5EB;
+}
+
+.TableSearch button {
+  font-weight: 500;
+  font-size: 14px;  
+  line-height: 16px;
+  color: #fff;
+  background-color: #7B8395;
+  padding: 15px 60px;
+  border: none;
+  cursor: pointer;
+}
